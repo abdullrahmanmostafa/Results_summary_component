@@ -1,0 +1,109 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Hanken Grotesk;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-content: center center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.card
+{
+    text-align: center;
+    position: relative;
+    top: 380px;
+    padding-right: 40px;
+    height: 500px;
+    width: 350px;
+    background-image: linear-gradient(to bottom ,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 10px;
+
+}
+.title
+{
+    padding: 20px 10px 30px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+    text-align: center
+
+}
+.table
+{
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 10px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.perc
+{
+   font-size: 15px;
+    font-weight: 600;
+    color: hsl(241, 100%, 89%); 
+}
+.any
+{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 70px;
+}
+.pretitle
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-left: 30px;
+
+}
+p
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card2
+{
+    text-align: center;
+    position: relative;
+    top: 380px;
+    padding-right: 40px;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.title2
+{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    margin-left: -125px;
+}
+.card2 .div 
+{
+    display: flex;
+    justify-content: space-between;
+    margin:10px -10px 10px 20px;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+    
+}
